@@ -1,0 +1,6 @@
+on_yearly_pulse = {
+ random_events = {
+  50 = HLTH.1}
+
+
+}

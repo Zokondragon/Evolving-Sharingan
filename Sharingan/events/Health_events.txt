@@ -1,0 +1,32 @@
+namespace = HLTH
+character_event = {
+id = HLTH.1
+desc = HLTHdesc1 #Some time after your injury and taking the time to maintain it's and your health, you've woken up with the pain subsided.
+picture = GFX_evt_monk
+is_triggered_only = yes
+
+trigger ={
+trait = Uchiha_Gene
+trait = severely_injured
+}
+
+option = {
+name = HLTHname1 #It wont hinder me any longer.
+
+remove_trait = severely_injured
+add_character_modifier = {
+				name = Shr_Pain
+				months = 2
+				}
+
+
+}
+
+
+
+
+
+
+
+
+}

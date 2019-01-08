@@ -1,0 +1,123 @@
+Incomplete_Sharingan = {
+random = no
+defensive_plot_power_modifier = 0.35
+plot_discovery_chance = 0.50
+opposites = {
+blind
+Semi_Complete_Sharingan}
+intrigue = 6
+martial = 5
+same_opinion = 40
+monthly_character_prestige = 1
+combat_rating = 50
+}
+Semi_Complete_Sharingan = {
+random = no
+defensive_plot_power_modifier = 0.50
+plot_discovery_chance = 0.65
+intrigue = 11
+martial = 13
+same_opinion = 40
+monthly_character_prestige = 3
+combat_rating = 75
+opposites = {
+blind
+Incomplete_Sharingan
+Lusterless_Eye
+}
+}
+Uchiha_Gene = {
+random = no
+ruler_designer_cost = 0
+inherit_chance = 95
+martial = 3
+intrigue = 1
+health = 1
+monthly_character_prestige = 1
+same_opinion = 40
+ai_ambition = 65
+}
+
+Lusterless_Eye = {
+random = no
+health = -1
+monthly_character_prestige = 2.5
+blinding = yes
+is_health = yes
+same_opinion = 40
+general_opinion = -10
+opposites = {
+Incomplete_Sharingan
+Semi_Complete_Sharingan
+Lusterless_Eye
+}
+}
+
+Complete_Sharigan1 = {
+random = no
+defensive_plot_power_modifier = 0.70
+plot_discovery_chance = 0.70
+intrigue = 15
+martial = 19
+same_opinion = 40
+monthly_character_prestige = 5
+levy_reinforce_rate = 2
+global_levy_size = 0.20
+local_movement_speed = 2
+combat_rating = 100
+ai_ambition = 85
+opposites = {
+Incomplete_Sharingan
+Semi_Complete_Sharingan
+Complete_Sharigan2
+Complete_Sharigan3
+Lusterless_Eye
+blinded
+}
+
+}
+
+Complete_Sharigan2 = {
+random = no
+defensive_plot_power_modifier = 0.80
+plot_discovery_chance = 0.90
+murder_plot_power_modifier = 1
+assassinate_chance_modifier = 0.70
+intrigue = 19
+martial = 13
+same_opinion = 40
+monthly_character_prestige = 5
+combat_rating = 80
+ai_ambition = 85
+opposites = {
+Incomplete_Sharingan
+Semi_Complete_Sharingan
+Complete_Sharigan1
+Complete_Sharigan3
+Lusterless_Eye
+blinded
+}
+}
+
+Complete_Sharigan3 = {
+random = no
+defensive_plot_power_modifier = 0.70
+plot_discovery_chance = 0.70
+intrigue = 13
+martial = 13
+global_tax_modifier = 0.20
+general_opinion = 35
+same_opinion = 40
+monthly_character_prestige = 5
+combat_rating = 80
+ai_ambition = 85
+ai_greed = 90
+opposites = {
+Incomplete_Sharingan
+Semi_Complete_Sharingan
+Complete_Sharigan1
+Complete_Sharigan2
+Lusterless_Eye
+blinded
+}
+}

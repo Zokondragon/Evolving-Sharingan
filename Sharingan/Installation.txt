@@ -1,0 +1,7 @@
+Simply move the .MOD
+
+Into your "Docouments\Paradox Interactive\Crusader Kings II\mod" Folder
+
+Contained within the rar,
+
+Then extract the file in the rar into the stated mod folder as well.

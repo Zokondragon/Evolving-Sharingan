@@ -1,0 +1,7 @@
+Shr_Pain = {
+health_penalty = -1
+is_visible = {
+		character = FROM
+	}
+	icon = 55
+}

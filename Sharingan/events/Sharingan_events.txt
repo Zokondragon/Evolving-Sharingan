@@ -1,0 +1,52 @@
+namespace = ZAKO
+character_event = {
+id = ZAKO.1
+desc = ZAKOdesc1 #You've contemplated training before but now it's starting to come to fruition, after packing your things to head out training alone in the wilderness you know it will be a dangerous venture and if anything happens you'll surely be alone to your vices.
+picture = GFX_evt_rift_scape
+is_triggered_only = yes
+
+trigger ={
+trait = Uchiha_Gene
+}
+
+option = {
+name = ZAKOTrainingName1 #Push forward to better yourself and eyes regardless of the chance of injury.
+        ai_chance = {
+			factor = 70
+		}
+		random_list = {
+		 40 = { add_trait = severely_injured }
+		 60 = { character_event = { id = ZAKO.2 } }
+		
+		}
+          
+}
+
+option = {
+name = ZAKOTrainingName2 #Head Back and not risk death or injury.
+
+ prestige = -200
+ random = { 
+            chance = 80
+                        add_trait = craven}
+                                               
+                                                     }
+}
+
+character_event = {
+id = ZAKO.2
+desc = ZAKOtrainingZAKO.2 #You've surpassed the odds on pushing yourself, training in the wilderness for days on end without another soul in sight relying on your body and keen eyesight for survival. After many near death experiences you've pushed yourself physically and emotionally to the limit and unlocked something hidden inside of you.
+picture = GFX_evt_river_scene
+is_triggered_only = yes
+
+option = {
+name = ZAKOTrainingName3 #Your eyes feel different.
+add_trait = Incomplete_Sharingan
+remove_trait = feeble 
+
+
+
+
+}
+
+}

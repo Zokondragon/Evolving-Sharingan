@@ -1,0 +1,33 @@
+decisions = {
+sharingantraining = {
+ #desc = sharingantrainingdesc
+ is_high_prio = yes
+ potential = {
+  trait = Uchiha_Gene
+  NOT = {trait = Incomplete_Sharingan}
+  NOT = {trait = Semi_Complete_Sharingan}
+  NOT = {trait = Lusterless_Eye}
+  age = 16
+ }
+ allow = { 
+   NOT = {trait = incapable}
+   NOT = {trait = wounded}
+   NOT = {trait = severely_injured}
+   martial = 5
+  }
+  
+  effect = {
+   character_event = {id = ZAKO.1}
+  }
+
+}
+
+
+
+
+
+
+
+
+
+}

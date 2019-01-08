@@ -1,0 +1,57 @@
+spriteTypes = {
+	spriteType = {
+name = "GFX_trait_Incomplete_Sharingan"
+texturefile = "gfx/traits/1sharingan.dds"
+ noOfFrames = 1
+ norefcount = yes
+ effectFile = "gfx/FX/buttonstate.lua"	
+	}
+	
+	spriteType = {
+name = "GFX_trait_Uchiha_Gene"
+texturefile = "gfx/traits/Gene.dds"
+ noOfFrames = 1
+ norefcount = yes
+ effectFile = "gfx/FX/buttonstate.lua"	
+	}
+
+ spriteType = {
+name = "GFX_trait_Semi_Complete_Sharingan"
+texturefile = "gfx/traits/2sharingan.dds"
+ noOfFrames = 1
+ norefcount = yes
+ effectFile = "gfx/FX/buttonstate.lua"	
+	}
+	
+	spriteType = {
+name = "GFX_trait_Lusterless_Eye"
+texturefile = "gfx/traits/losteye.dds"
+ noOfFrames = 1
+ norefcount = yes
+ effectFile = "gfx/FX/buttonstate.lua"	
+	}
+	
+	spriteType = {
+name = "GFX_trait_Complete_Sharigan1"
+texturefile = "gfx/traits/sharingan.dds"
+ noOfFrames = 1
+ norefcount = yes
+ effectFile = "gfx/FX/buttonstate.lua"	
+	}
+	
+	spriteType = {
+name = "GFX_trait_Complete_Sharigan2"
+texturefile = "gfx/traits/sharingan.dds"
+ noOfFrames = 1
+ norefcount = yes
+ effectFile = "gfx/FX/buttonstate.lua"	
+	}
+	
+	spriteType = {
+name = "GFX_trait_Complete_Sharigan3"
+texturefile = "gfx/traits/sharingan.dds"
+ noOfFrames = 1
+ norefcount = yes
+ effectFile = "gfx/FX/buttonstate.lua"	
+	}
+}
