@@ -3,8 +3,12 @@ random = no
 defensive_plot_power_modifier = 0.35
 plot_discovery_chance = 0.50
 opposites = {
-blind
-Semi_Complete_Sharingan}
+blinded
+Semi_Complete_Sharingan
+Lusterless_Eye
+Complete_Sharigan1
+Complete_Sharigan2
+Complete_Sharigan3}
 intrigue = 6
 martial = 5
 same_opinion = 40

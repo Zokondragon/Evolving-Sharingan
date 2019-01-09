@@ -1,0 +1,75 @@
+on_major_battle_lost = {
+	events = {
+		#List of events that must always fire. 
+		LVL.01
+	}
+
+}
+
+
+
+
+
+
+
+
+on_major_battle_won = {
+	events = {
+		#List of events that must always fire. 
+		LVL.02
+	}
+
+}
+
+
+
+
+
+
+
+
+
+on_battle_lost = {
+	events = {
+		#List of events that must always fire. 
+		LVL.03
+	}
+
+}
+
+
+
+
+
+
+
+
+
+on_war_ended_defeat = {
+	events = {
+		#List of events that must always fire. 
+		LVL.04
+	}
+}
+
+
+
+
+
+
+
+
+
+on_blood_brother_death = {
+	events = {
+		#List of events that must always fire. 
+		LVL.05
+		LVL.06
+	}
+
+}
+
+
+
+
+

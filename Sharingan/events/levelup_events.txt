@@ -1,0 +1,149 @@
+namespace = LVL
+character_event = {
+id = LVL.01
+picture = GFX_evt_cornered_duel_hf
+#major battle defeat
+desc = LVL1desc #After a major defeat at the hands of your enemy you are left alive, filled with rage and regret, feeling more powerless and incompetent than ever before.
+only_rulers = yes
+is_triggered_only = yes
+
+trigger ={
+trait = Uchiha_Gene
+trait = Incomplete_Sharingan
+}
+
+option = {
+name = LVL1name #You promise yourself you wont let this get to you, you will get better.
+add_trait = Semi_Complete_Sharingan
+random = {
+chance = 50
+add_trait = stressed
+ }
+}
+}
+
+character_event = {
+id = LVL.02
+picture = GFX_evt_hl_wolf
+#major battle victory
+desc = LVL2desc #After a major and heartfelt victory you feel more ivigorated and stronger than ever before. You aren't sure what exactly lead to this victory be it tactical skill from you or your generals or pure luck. But what you do know is that strength you've felt previously laying dormant within you seemingly has all but been confirmed to have awakened.
+only_rulers = yes
+is_triggered_only = yes
+
+trigger ={
+trait = Uchiha_Gene
+trait = Incomplete_Sharingan
+}
+
+option = {
+name = LVL2name #You feel stronger
+add_trait = Semi_Complete_Sharingan
+}
+
+}
+
+
+
+
+
+
+
+
+character_event = {
+id = LVL.03
+picture = GFX_evt_duel_scene
+#battle defeat
+desc = LVL3desc #After a defeat at the hands of your enemy you are left alive, filled with rage and regret, feeling more powerless and incompetent than ever before.
+only_rulers = yes
+is_triggered_only = yes
+
+trigger ={
+trait = Uchiha_Gene
+trait = Incomplete_Sharingan
+}
+
+option = {
+name = LVL3name #You promise yourself you wont let this get to you, you will get better.
+random = {
+chance = 30
+add_trait = stressed
+add_trait = Semi_Complete_Sharingan
+ }
+}
+}
+
+character_event = {
+id = LVL.04
+picture = GFX_evt_burning_man_hf
+#war loss
+desc = LVL4desc #After losing a war to the hands of your enemy you are left filled with rage and regret, feeling more powerless and incompetent than ever before.
+only_rulers = yes
+is_triggered_only = yes
+
+trigger ={
+trait = Uchiha_Gene
+trait = Incomplete_Sharingan
+}
+
+option = {
+name = LVL4name #You promise yourself you wont let this get to you, you will get better.
+add_trait = Semi_Complete_Sharingan
+random = {
+chance = 60
+add_trait = stressed
+ }
+}
+}
+
+
+character_event = {
+id = LVL.05
+picture = GFX_evt_skulls_hf
+#on_blood_brother_death
+desc = LVL5desc #After hearing the news that your sibling has died the pure shock of it hits you, regardless of wether you wanted them to die or not. Someone you've grown up with and is as close to you as you are to them has left this world for the next. Wether they're to be forgotten to the sands of time is to be decided.
+only_rulers = yes
+is_triggered_only = yes
+
+trigger ={
+trait = Uchiha_Gene
+trait = Incomplete_Sharingan
+}
+
+option = {
+name = LVL5name #I don't want the same to happen to me.
+add_trait = Semi_Complete_Sharingan
+}
+}
+
+character_event = {
+id = LVL.06
+picture = GFX_evt_skulls_hf
+#on_blood_brother_death
+desc = LVL6desc #After hearing the news that your sibling has died the pure shock of it hits you, regardless of wether you wanted them to die or not. Someone you've grown up with and is as close to you as you are to them has left this world for the next. Wether they're to be forgotten to the sands of time is to be decided.
+only_rulers = yes
+is_triggered_only = yes
+
+trigger ={
+trait = Uchiha_Gene
+trait = Semi_Complete_Sharingan
+}
+
+option = {
+name = LVL6name #I don't want the same to happen to me.
+random_list = {
+15 = {add_trait = Complete_Sharigan1}
+15 = {add_trait = Complete_Sharigan2}
+15 = {add_trait = Complete_Sharigan3}
+55 = {add_trait = depressed}
+
+
+}
+}
+}
+
+
+
+
+
+
+
